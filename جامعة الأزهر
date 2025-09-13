@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>كليات جامعة الأزهر</title>
+  <style>
+    body {
+      font-family: "Cairo", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #e6f0ff, #ffffff);
+      color: #222;
+    }
+    header, footer {
+      text-align: center;
+      padding: 20px;
+      background: #004080;
+      color: #fff;
+    }
+    header h1, footer h3 {
+      margin: 5px 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    .college {
+      background: #f9f9f9;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .college h2 {
+      font-size: 18px;
+      margin: 0;
+      color: #004080;
+    }
+    .college button {
+      background: #004080;
+      color: #fff;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .college button:hover {
+      background: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>هذا الموقع تابع لصفحة (كل ما يخص جامعة الأزهر)</h1>
+    <h3>إعداد: مُحَمَّدٌ نَاجِي عَبدُرَبه</h3>
+  </header>
+
+  <div class="container">
+    <!-- الكليات -->
+    <div class="college">
+      <h2>كلية الطب بنين ـ القاهرة</h2>
+      <button onclick="window.open('https://www.facebook.com/medicineazhar.edu.eg/', '_blank')">زيارة الصفحة</button>
+    </div>
+
+    <div class="college">
+      <h2>كلية الطب بنين ـ أسيوط</h2>
+      <button onclick="window.open('https://www.facebook.com/medicine.assiut', '_blank')">زيارة الصفحة</button>
+    </div>
+
+    <div class="college">
+      <h2>كلية الطب بنين ـ دمياط</h2>
+      <button onclick="window.open('https://www.facebook.com/profile.php?id=100063602269773', '_blank')">زيارة الصفحة</button>
+    </div>
+
+    <!-- ✨ هنا نضيف باقي الكليات بنفس النمط (كلية + زر) -->
+  </div>
+
+  <footer>
+    <h3>هذا الموقع خاضع لإشراف: مُحَمَّدٌ نَاجِي عَبدُرَبه</h3>
+  </footer>
+</body>
+</html>
